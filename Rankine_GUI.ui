@@ -202,24 +202,6 @@
         </property>
        </widget>
       </item>
-      <item row="3" column="1">
-       <widget class="QLineEdit" name="le_TurbineEff">
-        <property name="font">
-         <font>
-          <pointsize>12</pointsize>
-         </font>
-        </property>
-        <property name="text">
-         <string>1.0</string>
-        </property>
-        <property name="placeholderText">
-         <string>turbine isentropic efficiency 0.0&lt;eta&lt;=1.0</string>
-        </property>
-        <property name="clearButtonEnabled">
-         <bool>true</bool>
-        </property>
-       </widget>
-      </item>
       <item row="4" column="1">
        <widget class="QLabel" name="lbl_SatPropHigh">
         <property name="font">
@@ -241,6 +223,24 @@
         </property>
         <property name="text">
          <string>Saturated Properties</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QLineEdit" name="le_TurbineEff">
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>0.95</string>
+        </property>
+        <property name="placeholderText">
+         <string>turbine isentropic efficiency 0.0&lt;eta&lt;=1.0</string>
+        </property>
+        <property name="clearButtonEnabled">
+         <bool>true</bool>
         </property>
        </widget>
       </item>
